@@ -1,16 +1,27 @@
 
+
 <div class="right_col" role="main">
 
   <div class="row tile_count">
-    <app-applicant-applied></app-applicant-applied>
-    <app-applicant-rejected></app-applicant-rejected>
-    <app-short-listed-applicant></app-short-listed-applicant>
-    <app-pending-applicant></app-pending-applicant>
-  </div>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+      <app-applicant-applied></app-applicant-applied>
+    </div>
 
-  <div class="col-md-12 col-sm-12 col-xs-12">
-    <app-grid-view></app-grid-view>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+      <app-applicant-rejected></app-applicant-rejected>
+    </div>
+
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+      <app-short-listed-applicant></app-short-listed-applicant>
+    </div>
+
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+      <app-pending-applicant></app-pending-applicant>
+    </div>
   </div>
 
 </div>
+
+<app-grid-view></app-grid-view>
+
 
